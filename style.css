@@ -1,0 +1,209 @@
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    
+}
+.navbar-collapse {
+    flex-grow: 1;
+}
+.navbar-brand img {
+    height: auto; 
+}
+body {
+    padding-top: 55px; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background: rgb(175, 149, 99);
+}
+.carousel-inner img {
+    width: 100%; 
+    height: auto; 
+}
+.card{
+    color: rgb(255, 255, 255);
+    margin-top: 10%;
+    background: rgb(129, 122, 103);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(19, 18, 18);
+    display: flex; 
+    flex-direction: column; 
+    justify-content: space-between; 
+    text-align: center;
+    
+}
+.btn{
+    background: rgb(172, 143, 101);
+    color: rgb(0, 0, 0);
+}
+.container{
+    color: rgb(253, 245, 235);
+}
+.biografia{
+    color: rgb(255, 255, 255);
+    margin-top: 10%;
+    background: rgb(85, 76, 53);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(19, 18, 18);
+    display: flex; 
+    flex-direction: column; 
+    justify-content: space-between; 
+    padding: 10%;
+}
+main{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background: rgb(134, 117, 82);
+    color: rgb(247, 249, 250);
+}
+footer {
+    background-color: rgb(172, 141, 105);
+    padding:10%; 
+    text-align: justify;
+    color: rgb(238, 234, 230);
+    width: 100%;
+}
+.info-card {
+    background: rgb(202, 186, 171);
+    box-shadow: 0 0 10px rgb(82, 79, 81);
+    padding: 0%;
+    margin: 10%;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: space-around;
+    text-align: left;
+    color: rgb(245, 245, 245);
+    
+}
+#fondoimagen{
+    background-image: url(img/fondo.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    min-height:10%;
+    color: aliceblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 55px;
+}
+#logo{
+    width: 40%;
+    height: 25%;
+    max-width: 325px;
+    
+}
+#fondobambu{
+    background-image: url(img/fondo\ bamboo.png);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    min-height:10%;
+    color: rgb(161, 165, 168);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 20%;
+    text-align: center;
+}
+#fondodiscord{
+    background-image: url(img/fondodiscord.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: row;
+    min-height:10%;
+    color: rgb(187, 192, 196);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 10%;
+}
+#discord{
+   width: 40%;
+   height: 40%;
+
+}
+.discord-card{
+    background: rgb(58, 70, 134);
+    box-shadow: 0 0 10px rgb(5, 5, 48);
+    min-width: 100px;
+    padding: 0%;
+    margin: 10%;
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-around;
+    text-align: justify;
+    width: 100%;
+    padding-top: 5%;
+    padding-bottom: 2%;
+    color: rgb(245, 245, 245);
+}
+.cardh-text{
+    padding: 10%;
+}
+#fondochispa{
+    background-image: url(img/chispa.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: row;
+    min-height:10%;
+    color: rgb(255, 255, 255);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 22%;
+    text-align: center;
+}
+#textofinalabout{
+    background: rgba(255, 255, 255, 0.671);
+    box-shadow: 0 0 10px rgb(19, 18, 18);
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+}
+#textobambu{
+    background: rgba(255, 255, 255, 0.671);
+    box-shadow: 0 0 10px rgb(19, 18, 18);
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+}
+.listp{
+    color: rgb(255, 255, 255);
+    padding-top: 5%;
+    background: rgb(59, 52, 35);
+    border-radius: 10px;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    text-align: center;
+    padding-left:10%;
+}
+.storecard{
+    margin-top: 5px;
+    display: block;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    color: #c7d4e0;
+    background: #4d473c;
+}
+.storecard-text{
+    text-align: left;
+    padding-left: 3%;
+    display: inline-block;
+    vertical-align: top;
+}
+.comprar{
+   text-align: right;
+}
+.img-store{
+    height: 100%;
+    width: 100%;
+    
+}
+.textoarriba{
+    padding-top: 5%;
+}
+.comprar{
+    border: #4d473c;
+}
+.ayuda{
+   margin: 3%;
+}
+.forms{
+    background: rgb(134, 117, 82);
+}
